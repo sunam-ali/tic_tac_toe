@@ -43,7 +43,7 @@ function App() {
   });
 
   return (
-    <div className="h-screen bg-blue-100 flex flex-col justify-center items-center font-poppins p-4 py-8">
+    <div className="h-screen bg-blue-100 flex flex-col justify-center items-center font-poppins p-4 py-10">
       <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
       <History moves={moves} />
       <Footer/>
